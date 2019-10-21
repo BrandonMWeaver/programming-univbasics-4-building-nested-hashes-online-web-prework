@@ -12,7 +12,9 @@ end
 
 def monopoly_with_third_tier
   hash = monopoly_with_second_tier
-  hash[:railroads][:rent_in_dollars]
+  hash[:railroads][:rent_in_dollars] = {
+    
+  }
 end
 
 def monopoly_with_fourth_tier
