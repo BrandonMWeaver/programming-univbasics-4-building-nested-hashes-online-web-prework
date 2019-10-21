@@ -20,7 +20,7 @@ def monopoly_with_third_tier
   }
   hash[:railroads][:names] = {
     reading_railroad: { "mortgage_value" => "$100" },
-    
+    pen
   }
   return hash
 end
